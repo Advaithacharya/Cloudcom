@@ -2,6 +2,7 @@ mkdir demo
 cd demo
 echo "Hello Cloud Shell">hello.txt
 cat hello.txt
+chmod +x hello.txt
 ls -l
 cd ..
 
