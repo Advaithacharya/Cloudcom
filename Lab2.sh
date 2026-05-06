@@ -50,12 +50,9 @@ cat a.txt        #views file content
 cloudshell edit test.py  #opens cloud shell editor
 python3 test.py   #executes the file from terminal 
 gcloud compute instances list     #list VM instances
-gcloud compute instances create my-vm \
---zone=us-central1-a      #create a VM
-gcloud compute instances delete my-vm \
---zone=us-central1-a      #deletes a VM
-gcloud storage buckets list      #list buckets 
-gcloud storage buckets create gs://my-bucket-name     #create a bucket
+gcloud compute instances create my-vm \ --zone=us-central1-a      #create a VM
+gcloud compute instances delete my-vm \ --zone=us-central1-a      #deletes a VM
+gcloud storage buckets list      #list buckets gcloud storage buckets create gs://my-bucket-name     #create a bucket
 gcloud app deploy    #deploy app
 gcloud app browse     #view app
 gcloud iam service-accounts list     #list service accounts
