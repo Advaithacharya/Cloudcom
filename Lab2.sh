@@ -8,18 +8,18 @@ cd ..
 
 #File & Directory Management
 mkdir test     # Create directory
-rmdir test.    # Delete empty directory
-rm file.txt.    # Delete file
-rm -r folder.      # Delete folder recursively
+rmdir test    # Delete empty directory
+rm file.txt    # Delete file
+rm -r folder      # Delete folder recursively
 cp a.txt b.txt      # Copy file
 mv a.txt folder/     # Move or rename file
 
 #Viewing & Editing Files
 cat file.txt       # View file content
-less file.txt.     # Scroll view
+less file.txt     # Scroll view
 head file.txt      # First 10 lines
 tail file.txt         # Last 10 lines
-nano file.txt.       # Simple editor
+nano file.txt       # Simple editor
 vi file.txt          # Advanced editor
 
 #System Information
